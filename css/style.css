@@ -1,0 +1,202 @@
+/* --------------------------------------------------
+#   Global Styles
+-------------------------------------------------- */
+:root {
+    --light-green: #00C852;
+    --pitch-black: #000000;
+    --almost-black: #0000004d;
+    --like-coal: #333333;
+    --mid-gray: #999999;
+    --light-gray: #dddddd;
+    --white-gray: #efefef;
+    --pure-white: #ffffff;
+    --font-primary: "Poppins", Poppins, sans-serif;
+}
+html {
+    margin: 0;
+}
+body {
+    background-color: var(--light-gray);
+    color: var(--pitch-black);
+    font-size: 18px;
+    font-family: var(--font-primary);
+    line-height: 2rem;
+    min-width: 375px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+a {
+    color: var(--light-green);
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+}
+code {
+    color: var(--light-green);
+}
+blockquote {
+    border-left: 4px solid var(--light-green);
+    padding: 0.8rem;
+}
+pre {
+    background-color: var(--white-gray);
+    border-radius: 12px;
+    padding: 2rem;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+}
+button {
+    border-radius: 4px;
+}
+input {
+    line-height: normal;
+}
+table {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+table thead {
+    background-color: var(--white-gray);
+}
+table thead th:first-child {
+    border-radius: 12px 0 0 12px;
+}
+table thead th:last-child {
+    border-radius: 0 12px 12px 0;
+}
+td,
+th {
+    padding: 0.75rem;
+}
+tr {
+    border-bottom: 1px solid var(--light-gray);
+}
+tr:last-child {
+    border-bottom: none;
+}
+img {
+    max-width: 100%;
+}
+iframe {
+    border-radius: 12px;
+    margin: 0 auto;
+    max-width: 780px;
+}
+figure {
+    margin: 1.5rem 0 3rem;
+}
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-weight: 700;
+}
+.input-group button:hover {
+    background-color: var(--pitch-black);
+    color: var(--pure-white);
+}
+.input-group > .form-control {
+    min-height: 40px;
+}
+.muted {
+    color: var(--mid-gray);
+}
+.text-green {
+    color: var(--light-green);
+}
+.green {
+    color: var(--light-green);
+}
+.lay {
+    display: none;
+}
+.content-block > .table-responsive {
+    margin: 0;
+}
+.btn {
+    font-size: 1.25rem;
+}
+.btn-green,
+a.btn-green {
+    background-color: var(--pure-white);
+    color: var(--light-green);
+    font-weight: 700;
+}
+.btn-green-bg {
+    background-color: var(--light-green);
+    color: var(--pure-white);
+    font-weight: 400;
+}
+.modal-content {
+    background-color: var(--light-green);
+    border-radius: 12px;
+    color: var(--pure-white);
+    padding: 3rem;
+}
+.modal .btn,
+.membership .btn {
+    border: 1px solid var(--pure-white);
+    cursor: pointer;
+    height: 3.75rem;
+    padding: 0.9rem 2rem;
+}
+.modal a:hover {
+    font-weight: bold;
+}
+.br-20 {
+    border-radius: 20px;
+}
+.bt-d {
+    border-top: 1px dashed var(--light-gray);
+}
+.bb-d {
+    border-bottom: 1px dashed var(--light-gray);
+}
+.twitter-tweet,
+.twitter-tweet-rendered,
+.instagram-media,
+.instagram-media-rendered {
+    margin: 10px auto !important;
+}
+
+/* --------------------------------------------------
+#   Header Section
+-------------------------------------------------- */
+
+.header-section {
+    background: url('../img/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 400px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--pure-white);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--white-gray);
+}
+
+
+.hero {
+    margin-top: 30px;
+}
