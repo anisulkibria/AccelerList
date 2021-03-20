@@ -140,6 +140,9 @@ a.btn-green {
     color: var(--pure-white);
     font-weight: 400;
 }
+.btn-green-bg a{
+    color: var(--pure-white);
+}
 .modal-content {
     background-color: var(--light-green);
     border-radius: 12px;
@@ -182,21 +185,30 @@ a.btn-green {
     background-repeat: no-repeat;
     color: #ffffff;
     min-height: 400px;
+    padding: 30px;
 }
 
-.navbar {
+.top-nav {
     margin-bottom: 30px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light.top-nav .navbar-nav .nav-link {
     color: var(--pure-white);
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light.top-nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: var(--white-gray);
 }
 
-
 .hero {
     margin-top: 30px;
+}
+
+.middle-navbar {
+    background: #ffffff;
+    padding: 0 30px;
+}
+
+.middle-nav {
+    padding: 0;
 }
