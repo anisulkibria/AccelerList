@@ -17,89 +17,229 @@
 </head>
 
 <body>
-  <div class="container main-content">
 
+  <div class="content-wrapper">
 
-    <div class="row header-section">
+    <!-- Start Header Section -->
+    <div class="container-fluid header-section">
 
-      <div class="col-md-12">
+      <div class="container">
+        <div class="row">
+          <!-- Start Top Navbar -->
+          <div class="col-lg-12">
 
-        <nav class="navbar navbar-expand-lg navbar-light top-nav">
-          <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt=""> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <button class="btn btn-green-bg" type="submit">Sign Up</button>
-            </form>
+            <nav class="navbar navbar-expand-lg navbar-light top-nav">
+              <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt=""> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                  </li>
+                </ul>
+                <form class="d-flex sign-up">
+                  <a href="#" class="btn btn-green-bg" type="submit">Sign Up</a>
+                </form>
+              </div>
+            </nav>
+
           </div>
-        </nav>
-
-      </div>
-
-      <div class="hero">
-
-        <div class="col-md-6 col-offset-6">
-          <h1>AccelerList Blog</h1>
-          <p>Get the knowledge and inspiration you need to build a profitable business - straight to your inbox</p>
+          <!-- End Top Navbar -->
         </div>
 
-        <div class="col-md-6 col-offset-6">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Your email address" aria-label="Your email address">
-            <button class="btn btn-green-bg" type="button">Get Updates</button>
-          </div>
-        </div>
+        <!-- Start Hero -->
+        <div class="hero row">
 
-        <div class="col-md-12">
-          <p>Free unsubscribe anytime</p>
-        </div>
+          <div class="col-lg-6 hero-left">
 
-      </div>
-
-    </div>
-
-    <div class="row middle-navbar">
-      <div id="cal-md-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light middle-nav">
-          <a class="navbar-brand" href="#">Category</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">All</a>
-              <a class="nav-link btn btn-green-bg" href="#">Listing Products</a>
-              <a class="nav-link" href="#">eBay Listing</a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Profit Recipe</a>
+            <div class="col-lg-12">
+              <h1>AccelerList Blog</h1>
+              <p>Get the knowledge and inspiration you need to build a profitable business - straight to your inbox</p>
             </div>
+
+            <div class="col-lg-12">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Your email address"
+                  aria-label="Your email address">
+                <button class="btn btn-green-bg" type="button">Get Updates</button>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <p class="small">Free unsubscribe anytime</p>
+            </div>
+
           </div>
-        </nav>
+
+          <div class="col-lg-6 hero-right">
+            <img src="./img/hero-image.png" alt="">
+          </div>
+
+        </div>
+        <!-- End Hero -->
+
       </div>
+
     </div>
 
+    <!-- End Header Section -->
 
+    <div class="container">
 
+      <!-- Start Middle Navbar -->
+      <div class="row middle-navbar">
+        <div id="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light middle-nav">
+            <a class="nav-link disabled" href="#">Category</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">All</a>
+                <a class="nav-link btn btn-green-bg" href="#">Listing Products</a>
+                <a class="nav-link" href="#">eBay Listing</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Profit Recipe</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- End Middle Navbar -->
+
+      <!-- Start Content Area -->
+      <div class="row content-area">
+
+        <!-- Start Main Content  -->
+        <div class="col-lg-9 main-content">
+
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-1.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Amazon FBA Fees: How Much Does it Cost to Sell on Amazon?</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-2.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">What's the Ideal Amazon Turnover Rate?</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-3.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Amazon FBA vs. Merchant Fulfilled: Which One Works Best for You?</a>
+                </h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-4.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Lost His Job but Now Sells Video Games Online</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-1.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Amazon FBA Fees: How Much Does it Cost to Sell on Amazon?</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-2.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">What's the Ideal Amazon Turnover Rate?</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-3.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Amazon FBA vs. Merchant Fulfilled: Which One Works Best for You?</a>
+                </h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-6">
+              <div class="post-card">
+                <div class="thumb"><a href="#"><img src="./img/post-thumb-4.jpg" alt=""></a></div>
+                <h4 class="post-title"><a href="">Lost His Job but Now Sells Video Games Online</a></h4>
+              </div>
+            </div><!-- .post-card  -->
+
+            <div class="col-lg-12 text-center load-more">
+              <a href="#" class="btn btn-light">Load More</a>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- End Main Content -->
+
+        <!-- Start sidebar -->
+        <div class="col-lg-3 sidebar">
+
+          <div class="sidebar-widget widget-1">
+            <h5><i class="fas fa-headphones-alt"></i>PODCAST HIGHLIGHT</h5>
+            <ul>
+              <li><a href="#">Successful Online Seller Who's Motivating the World on TikTok</a></li>
+              <li><a href="#">Quit His Full-Time Job To Sell Books on Amazon</a></li>
+              <li><a href="#">Lost His Job but Now Sells Video Games Online</a></li>
+              <li><a href="#">Selling on Amazon After a Life Changing Accident</a></li>
+            </ul>
+            <a href="#">Listen to all podcasts</a>
+          </div>
+
+          <div class="sidebar-widget widget-2">
+            <h5><i class="fas fa-chart-bar"></i>APP STATISTICS</h5>
+            
+            <a href="#">Read Success Stories</a>
+          </div>
+
+          <div class="sidebar-widget widget-3">
+            <h5><i class="fas fa-link"></i>USEFUL LINKS</h5>
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+              <li><a href="#">Link 4</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- End Sidebar -->
+
+      </div>
+      <!-- End Content Area -->
+    </div>
+
+    <!-- Start Footer -->
+    <div class="container-fluid footer">
+
+    </div>
+    <!-- End Footer -->
 
   </div>
-
-  </div>
-
 
   <script src="./js/bootstrap.min.js"></script>
 </body>
