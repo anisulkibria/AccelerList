@@ -214,6 +214,10 @@ a.btn-green {
   margin: 10px auto !important;
 }
 
+.very-small {
+    font-size: 8px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
@@ -366,6 +370,14 @@ a.btn-green {
   padding-left: 0;
 }
 
+.sidebar-widget .widget-title{
+    padding-bottom: 20px;
+}
+
+.sidebar-widget h6 {
+    margin-bottom: 0;
+}
+
 .sidebar .widget-3 ul {
   margin-bottom: 0;
 }
@@ -405,6 +417,7 @@ a.btn-green {
 
 .footer {
     font-size: 14px;
+    font-weight: 300;
 }
 
 .footer .row{
@@ -445,6 +458,14 @@ a.btn-green {
     color: #ffffff;
 }
 
-.footer .fa-facebook-square {
+.footer .fab {
     padding-right: 10px;
+}
+
+.footer .copywrite {
+    color: #cccccc;    
+}
+
+.footer-bottom {
+    color: #cccccc;
 }
