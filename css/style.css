@@ -218,6 +218,10 @@ a.btn-green {
   font-size: 8px;
 }
 
+.full-width {
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
@@ -321,7 +325,7 @@ a.btn-green {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #212121;
+  color: #212121;
 }
 
 .navbar-light .navbar-nav .nav-link.btn-green-bg {
@@ -432,28 +436,57 @@ a.btn-green {
   color: var(--pure-white);
 }
 
-.page .header-section .fas, 
+.page .header-section .fas,
 .post .header-section .fas {
-    color: var(--pure-white);
+  color: var(--pure-white);
 }
 
-.page .navbar-light .navbar-nav .nav-link, 
+.page .navbar-light .navbar-nav .nav-link,
 .post .navbar-light .navbar-nav .nav-link {
-    color: var(--pure-white);
+  color: var(--pure-white);
 }
 
 .post-header {
-    background: #012740;
-    border: 1px solid #dddddd;
-    border-radius: 6px;
-    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 8%);
-    color: #ffffff;
-    margin-bottom: 30px;
-  }
+  background: #012740;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 8%);
+  color: #ffffff;
+  margin-bottom: 30px;
+}
 
-  .post-header a{
-    color: #ffffff;
-  }
+.post-header a {
+  color: #ffffff;
+}
+
+.meta-info {
+  padding: 30px 30px 0;
+}
+
+.excerpt, .toc, .post-content {
+  border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.toc {
+  background-color: #00273f;
+  color: #ffffff;
+}
+
+.toc a {
+  color: #ffffff;
+}
+
+.kg-width-full img{
+  width: 100%;
+}
+
+.post-content>*+* {
+  margin-top: 30px;
+}
+
 
 /* Footer */
 .footer-wrapper {
