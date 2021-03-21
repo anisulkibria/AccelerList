@@ -215,7 +215,7 @@ a.btn-green {
 }
 
 .very-small {
-    font-size: 8px;
+  font-size: 8px;
 }
 
 @media (min-width: 992px) {
@@ -320,6 +320,10 @@ a.btn-green {
   padding: 0.5rem 0;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #212121;
+}
+
 .navbar-light .navbar-nav .nav-link.btn-green-bg {
   color: #fff;
 }
@@ -370,12 +374,12 @@ a.btn-green {
   padding-left: 0;
 }
 
-.sidebar-widget .widget-title{
-    padding-bottom: 20px;
+.sidebar-widget .widget-title {
+  padding-bottom: 20px;
 }
 
 .sidebar-widget h6 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .sidebar .widget-3 ul {
@@ -408,6 +412,49 @@ a.btn-green {
   padding-right: 10px;
 }
 
+/* Single Page / Post */
+
+@media (min-width: 992px) {
+  .page .header-section:before,
+  .post .header-section:before {
+    background-image: url(../img/inner-page-bg.png);
+  }
+}
+
+.page .header-section,
+.post .header-section {
+  min-height: 130px;
+}
+
+.page .btn-green-bg,
+.post .btn-green-bg {
+  background-color: #00273f;
+  color: var(--pure-white);
+}
+
+.page .header-section .fas, 
+.post .header-section .fas {
+    color: var(--pure-white);
+}
+
+.page .navbar-light .navbar-nav .nav-link, 
+.post .navbar-light .navbar-nav .nav-link {
+    color: var(--pure-white);
+}
+
+.post-header {
+    background: #012740;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 8%);
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  .post-header a{
+    color: #ffffff;
+  }
+
 /* Footer */
 .footer-wrapper {
   background: #012740;
@@ -416,56 +463,56 @@ a.btn-green {
 }
 
 .footer {
-    font-size: 14px;
-    font-weight: 300;
+  font-size: 14px;
+  font-weight: 300;
 }
 
-.footer .row{
-    padding: 30px 30px 10px;
+.footer .row {
+  padding: 30px 30px 10px;
 }
 
-.footer .row.footer-bottom{
-    padding-bottom: 30px;
+.footer .row.footer-bottom {
+  padding-bottom: 30px;
 }
 
 .footer .logo {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-logo {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 .footer .ebay-logo {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .footer ul {
-    font-size: 14px;
-    list-style: none;
-    padding: 0;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
 }
 
 .footer a {
-    color: #cccccc;
+  color: #cccccc;
 }
 
 .footer .social-icons {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.footer .social-icons a{
-    color: #ffffff;
+.footer .social-icons a {
+  color: #ffffff;
 }
 
 .footer .fab {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .footer .copywrite {
-    color: #cccccc;    
+  color: #cccccc;
 }
 
 .footer-bottom {
-    color: #cccccc;
+  color: #cccccc;
 }
